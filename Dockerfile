@@ -1,4 +1,4 @@
-FROM  node:latest AS builder111
+FROM  node:latest AS builder
 WORKDIR /app
 COPY package.json .
 RUN npm install
